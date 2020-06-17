@@ -1,6 +1,10 @@
 #main-content {
   margin-top: 10%;
 }
+#main-content h1 {
+  font-size: 64px;
+  font-weight: 300;
+}
 .member img,
 .members img {
   width: 200px;
