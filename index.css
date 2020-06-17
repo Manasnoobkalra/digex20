@@ -1,0 +1,51 @@
+.maincont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.maincont h1 {
+  font-size: 3rem;
+  margin-bottom: 0px;
+  font-weight: 500;
+  text-shadow: 2px 0 black;
+}
+.maincont h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: 200;
+}
+.maincont h2::after {
+  content: "";
+  animation: slide 10s linear infinite;
+}
+@keyframes slide {
+  0% {
+    content: "Change your lens. Change your story.";
+    opacity: 1;
+  }
+  17% {
+    opacity: 0;
+  }
+  34% {
+    content: "Adjust your focus.";
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+  68% {
+    content: "Get Set Wow!";
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  99% {
+    content: "17 August 2019";
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -25,6 +25,7 @@
 }
 .rows {
   margin-bottom: 7%;
+  margin-top: 2%;
 }
 @media only screen and (max-width: 1000px) {
   #main-content {
