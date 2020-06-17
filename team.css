@@ -5,7 +5,8 @@
 .members img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 8%;
+  box-shadow: 1px 4px 10px #888888;
 }
 .members {
   display: inline-block;
