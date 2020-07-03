@@ -240,7 +240,9 @@ button {
 
 /*page body*/
 .main-content {
-  min-height: 100vh;
+  position: relative;
+  min-height: 90vh;
+  border-bottom: 1px solid black;
 }
 /*page body end*/
 .overlay {

@@ -5,47 +5,81 @@
   transform: translate(-50%, -50%);
 }
 .maincont h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 0px;
   font-weight: 500;
   text-shadow: 2px 0 black;
+  text-align: center;
 }
 .maincont h2 {
   font-size: 2rem;
   margin-top: 10px;
   font-weight: 200;
+  letter-spacing: 4px;
 }
-.maincont h2::after {
+.know {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.know h1 {
+  font-size: 3rem;
+  margin-bottom: 0px;
+  font-weight: 500;
+  text-shadow: 2px 0 black;
+}
+.know h2 {
+  font-size: 2rem;
+  margin-top: 100px;
+  font-weight: 200;
+  width: 150%;
+  margin-left: -25%;
+}
+.know h1:after {
   content: "";
-  animation: slide 10s linear infinite;
+  display: block;
+  height: 4px;
+  width: 80px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  margin-top: 20px;
 }
-@keyframes slide {
-  0% {
-    content: "Change your lens. Change your story.";
-    opacity: 1;
-  }
-  17% {
-    opacity: 0;
-  }
-  34% {
-    content: "Adjust your focus.";
-    opacity: 1;
-  }
-  51% {
-    opacity: 0;
-  }
-  68% {
-    content: "Get Set Wow!";
-    opacity: 1;
-  }
-  85% {
-    opacity: 0;
-  }
-  99% {
-    content: "17 August 2019";
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.knowbtn {
+  padding: 25px 30px;
+  border-radius: 67px;
+  border: 1px solid #000000;
+  background-color: white;
+  color: #000000;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.snacc {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 0px 180px 30px 100px;
+}
+.snacc p {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  width: 70%;
+  font-weight: 200;
+}
+.snacc .gal {
+  display: inline-block;
+  float: right;
+  margin-top: 45px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 67px;
+  font-size: 32px;
+  padding: 10px 30px;
+}
+@media only screen and (max-width: 1000px) {
 }
