@@ -129,5 +129,85 @@
   margin: 20% 10%;
   font-size: 1.5rem;
 }
+.onearch {
+  width: 30%;
+  padding: 20px;
+  background-color: #787878;
+  display: inline-block;
+  text-align: center;
+  border-radius: 40px;
+  margin-left: 3%;
+}
+.pool {
+  background-image: url("./res/pool.jpg");
+  object-fit: cover;
+}
+.sun {
+  background-image: url("./res/sun.jpg");
+  object-fit: cover;
+}
+.water {
+  background-image: url("./res/water.jpg");
+  background-size: 520px 350px;
+  object-fit: cover;
+}
+.onearch button {
+  margin-top: 250px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 67px;
+}
 @media only screen and (max-width: 1000px) {
+  .snacc {
+    display: none;
+  }
+  .know {
+    top: 100%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  }
+  .know h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    font-weight: 500;
+    text-shadow: 2px 0 black;
+  }
+  .know h2 {
+    font-size: 1rem;
+    margin-top: 100px;
+    font-weight: 200;
+  }
+  .know h1:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 80px;
+    margin-left: 21%;
+    transform: translateX(-50%);
+    background-color: black;
+    margin-top: 5px;
+  }
+  .knowbtn {
+    padding: 25px 30px;
+    border-radius: 67px;
+    border: 1px solid #000000;
+    background-color: white;
+    color: #000000;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .maincont h2 {
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .maincont h1 {
+    font-size: 3rem;
+    margin-left: 0%;
+  }
+  .achieve {
+    display: none;
+  }
 }

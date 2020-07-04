@@ -10,6 +10,7 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /*navbar start*/
@@ -242,7 +243,6 @@ button {
 .main-content {
   position: relative;
   min-height: 90vh;
-  border-bottom: 1px solid black;
 }
 /*page body end*/
 .overlay {
@@ -259,7 +259,7 @@ button {
 }
 /* footer*/
 footer {
-  width: 100%;
+  width: 101%;
   min-height: 10vh;
   padding: 8vh 4vw;
   background-color: #f1f1f1;
